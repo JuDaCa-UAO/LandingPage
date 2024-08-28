@@ -40,6 +40,7 @@ p {
 .cta-button:hover {
     background-color: #2A2359;
 }
+
 .container { 
     padding: 20px;
     border-radius: 8px;
@@ -47,4 +48,42 @@ p {
     background-color: rgba(255, 255, 255, 0.74);
     width: 30%;
     text-align: center;
+}
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        width: 50%;
+    }
+}
+
+/* Estilos para móviles */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .container {
+        width: 80%;
+        padding: 15px;
+    }
 }
